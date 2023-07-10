@@ -68,7 +68,7 @@ function showUsers() {
 }
 
 async function getUsers() {
-    let response = await fetch('https://quantico.kz/');
+    let response = await fetch('https://quantico.kz:3003');
 
     if (response.ok) { // если HTTP-статус в диапазоне 200-299
         // получаем тело ответа 
